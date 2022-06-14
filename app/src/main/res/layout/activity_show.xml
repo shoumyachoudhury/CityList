@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#56CAFF"
+    android:background="#8BC34A"
     tools:context=".ShowActivity"
     android:id="@+id/city"
     >
@@ -26,7 +26,7 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginBottom="304dp"
-        android:backgroundTint="#FF6636"
+        android:backgroundTint="#E91E63"
         android:text="Back"
         android:textSize="14sp"
         app:cornerRadius="10dp"
