@@ -86,7 +86,7 @@ public class MainActivityTest {
         onData(anything()).inAdapterView(withId(R.id.city_list)).atPosition(0).perform(click()); //Check the content on the list - no content in this case
 
         onView(withId(R.id.city)).check(matches(isDisplayed()));
-        onView(withId(R.id.cityView)).check(matches(isDisplayed())); //Type a city name
+        onView(withId(R.id.cityView)).check(matches(withText("Edmonton"))); //Type a city name
         onView(withId(R.id.button)).perform(click());
         //pressBack();
         onView(withId(R.id.MainActivity)).check(matches(isDisplayed()));
